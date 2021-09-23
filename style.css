@@ -1,0 +1,125 @@
+/* NavBar */
+ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.push{
+    margin: 0px 5%;
+}
+nav{
+    border-bottom: 1px solid #e9e9eb;
+    padding:5px  ;
+
+}
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    /* position: fixed; */
+}
+.nav-links img{
+    width: 20px;
+}
+ 
+.nav-links {
+    display:flex;
+    gap:10px;
+}
+.nav-links span{
+    margin-left:10px;
+    letter-spacing: 0.3px;
+}
+.nav-links a{
+    display:flex;
+    align-items:center;
+    margin:5px 15px;
+    text-decoration:none;
+    font-size:16px;
+    color:#282c3f;
+    font-weight: 500;
+}
+ 
+#search-link {
+    color: #fc8019!important;
+}
+#offer-link::after {
+    color: #fc8019!important;
+    content:"NEW";
+    font-size: 10px;
+    position: relative;
+    top:-10px;
+    font-weight: 700;
+}
+
+
+/* main */
+main{
+    padding: 16px;
+}
+/* Card Style */
+.food-img img {
+    width: 254px;
+    height: 160px;
+}
+.inr-sym::before {
+    content: "\20B9";
+}
+.star::before {
+    content: "\2605";
+}
+.card-conatainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:hover{
+    border: 1px solid #e9e9eb;
+}
+.card{
+    /* display: flex; */
+    width: 256px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid transparent;
+}
+
+.food-desc h1{
+    font-size:17px;
+    font-weight: 500;
+    word-break: break-word;
+}
+.food-desc p{
+    font-size:13px;
+    color: #686b78;
+    text-overflow: ellipsis;
+
+}
+.food-higlight {
+    font-size:12px;
+    color:#535665;
+    display: flex;
+    justify-content:space-between;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+.food-higlight .star-box{
+    background-color: #48c479;
+    color: #fff;
+    padding: 2px 5px;
+}
+.circle{
+    font-weight: 300;
+}
+.food-deal{
+    border-top:1px solid #e9e9eb;
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+ 
+.food-deal .deal-title{
+    color: #8a584b;
+}
